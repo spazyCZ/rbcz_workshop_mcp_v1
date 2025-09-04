@@ -1,0 +1,18 @@
+# Workshop MCP example servers
+# No external dependencies required (stdlib only).
+# Add future libraries below, e.g.:
+# requests==2.32.3
+# rich==13.7.1
+
+# Dependencies for agent_simple/agent_0.py
+requests>=2.32.3
+python-dotenv>=1.0.1
+openai>=1.35.0
+langchain>=0.2.10
+langchain-core>=0.2.10
+langgraph>=0.1.14
+langchain-openai>=0.1.13  # added for ChatOpenAI import
+
+# HTTP wrapper for tools-server
+fastapi>=0.111.0
+uvicorn[standard]>=0.30.0

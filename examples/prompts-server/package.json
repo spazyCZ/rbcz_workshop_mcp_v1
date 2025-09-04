@@ -1,0 +1,14 @@
+{
+  "name": "mcp-prompts-server",
+  "version": "0.1.0",
+  "type": "module",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "zod": "^3.23.8",
+    "mustache": "^4.2.0"
+  }
+}
